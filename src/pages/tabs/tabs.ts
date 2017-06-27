@@ -20,10 +20,10 @@ import { AddPage } from '../add/add';
 })
 export class TabsPage {
 
-  tab1Root = PlacesPage;
-  tab2Root = FriendsPage;
-  tab3Root = AroundPage;
-  tab4Root = AddPage;
+  tab1Root = "PlacesPage";
+  tab2Root = "FriendsPage";
+  tab3Root = "AroundPage";
+  tab4Root = "AddPage";
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }

@@ -1,0 +1,10 @@
+<!-- Generated template for the ComponentHeaderComponent component -->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>{{tabName}}</ion-title>
+    <ion-icon name="menu" class="item-button-right" (click)="openMenu()"></ion-icon>
+  </ion-navbar>
+  <component-logout *ngIf="showLogout"></component-logout>
+
+</ion-header>

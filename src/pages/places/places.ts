@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+//import {ComponentHeader} from '../../components/component-header'
 
 /**
  * Generated class for the PlacesPage page.
